@@ -2,3 +2,5 @@ The model is not seen to be giving a correct output, and I believe it is because
 
 We can observe that after epoch48, the model is just predicting blank images (likely due to vanishing gradient I believe). However, since checkpointing is not working 
 correctly, I could not load the model with the best val_loss (epoch 48). I have yet to fix this.
+
+16Mar Update : Fixed the code as above and committed.
